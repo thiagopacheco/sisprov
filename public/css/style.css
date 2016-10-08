@@ -1,0 +1,14 @@
+@import url('bootstrap.min.css');
+@import url('font-awesome.min.css');
+
+html{position: relative; min-height: 100%}
+.header{background-color: #F8F8F8}
+@media screen and (max-width: 767px){
+    .header h1{font-size: 1.8em;}
+}
+
+.action{min-width: 80px}
+
+.header .navbar{border-top: none; border-bottom-left: none; border-right: none; border-radius: 0}
+.content{margin-bottom: 65px}
+.footer{position: absolute; width: 100%; bottom: 0; background-color: #000; color: #777; padding-top: 10px}
